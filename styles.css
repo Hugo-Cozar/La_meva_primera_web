@@ -17,12 +17,19 @@ nav a {
     text-decoration: none;
 }
 
-/* Contenido */
+/* Página activa en el menú */
+nav a.active {
+    font-weight: bold;         /* Negrita */
+    text-decoration: underline;/* Subrayado */
+    color: #FFD700;            /* Dorado */
+}
+
+/* Contenido principal */
 main {
     padding: 20px;
 }
 
-/* Noticias */
+/* Secciones de noticias */
 article {
     border: 1px solid #ccc;
     padding: 15px;
@@ -31,7 +38,7 @@ article {
     background: #f9f9f9;
 }
 
-/* Pie */
+/* Pie de página */
 footer {
     background: #333;
     color: white;
