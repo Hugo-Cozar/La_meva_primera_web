@@ -1,20 +1,45 @@
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
 
+/* Cabecera */
 header {
     background: #333;
     color: white;
     padding: 15px;
 }
 
+/* Menú */
 nav a {
     color: white;
-    margin-right: 10px;
+    margin-right: 15px;
     text-decoration: none;
 }
 
+/* Contenido principal */
 main {
     padding: 20px;
+}
+
+/* Secciones */
+section {
+    margin-top: 30px;
+}
+
+/* Noticias */
+article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+/* Pie de página */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
