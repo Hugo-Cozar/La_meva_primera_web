@@ -17,6 +17,11 @@ nav a {
     text-decoration: none;
 }
 
+.imagen-mediana {
+  width: 400px;
+  height: auto;
+}
+
 /* Página activa en el menú */
 nav a.active {
     font-weight: bold;         /* Negrita */
